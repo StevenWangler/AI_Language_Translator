@@ -14,7 +14,7 @@ def index_post():
     original_text = request.form['text']
     target_language = request.form['language']
 
-    # Load the values from .env, this is in our git ignore
+    # Load the values from .env, this is in our git ignorete
     key = os.environ['KEY']
     endpoint = os.environ['ENDPOINT']
     location = os.environ['LOCATION']
